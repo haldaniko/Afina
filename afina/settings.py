@@ -8,9 +8,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['haldaniko.com.ua', '185.235.218.158', 'vps3y0zf.netxi.host']
+
 
 INSTALLED_APPS = [
     'django.contrib.admin',
